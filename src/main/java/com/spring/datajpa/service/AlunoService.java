@@ -2,7 +2,7 @@ package com.spring.datajpa.service;
 
 import com.spring.datajpa.entity.Aluno;
 import com.spring.datajpa.entity.AvaliacaoFisica;
-import com.spring.datajpa.entity.dto.AlunoDTO;
+import com.spring.datajpa.controller.dto.AlunoDTO;
 import com.spring.datajpa.repository.AlunoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

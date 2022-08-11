@@ -1,4 +1,4 @@
-package com.spring.datajpa.entity.dto;
+package com.spring.datajpa.controller.dto;
 
 
 import lombok.AllArgsConstructor;

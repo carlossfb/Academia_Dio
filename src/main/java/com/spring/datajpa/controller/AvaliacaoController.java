@@ -1,12 +1,10 @@
 package com.spring.datajpa.controller;
 
 import com.spring.datajpa.entity.AvaliacaoFisica;
-import com.spring.datajpa.entity.dto.AvaliacaoDTO;
+import com.spring.datajpa.controller.dto.AvaliacaoDTO;
 import com.spring.datajpa.service.AvaliacaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequestMapping("exame")
