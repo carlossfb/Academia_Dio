@@ -28,7 +28,7 @@ public class AlunoController {
         return service.get(id);
     }
 
-    @GetMapping("/excluir/{id}")
+    @DeleteMapping("/excluir/{id}")
     public String DeletarAluno(@PathVariable("id") Long id){
         service.delete(id);
         return "Aluno deletado!";
@@ -40,7 +40,7 @@ public class AlunoController {
         return service.create(cadastro);
     }
 
-    @RequestMapping("/editar/{id}")
+    @PutMapping("/editar/{id}")
     public Aluno EditarAluno(@PathVariable Long id,@RequestBody AlunoDTO editar){
 
         Aluno atualizado = service.update(id, editar);
